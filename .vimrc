@@ -1,4 +1,4 @@
-call pathogen#infect()
+"call pathogen#infect()
 filetype plugin indent on "开启插件
 set nocompatible "不兼容vi模式
 set modelines=0 "不使用modelines
@@ -7,7 +7,7 @@ syntax on "语法高亮
 set tabstop=4 "设置tap键为4个空格
 set shiftwidth=4 "设置当行之间交错时使用4个空格， << 和 >> 命令移动时的宽度为 4
 set softtabstop=4 "使得按退格键时可以一次删掉 4 个空格
-set expandtab=4 "设置缩进长度
+"set expandtab=4 "设置缩进长度
 set showmatch "设置匹配模式 显示括号对应
 set ruler "打开状态栏标尺
 set incsearch "实时显示搜索结果
@@ -33,7 +33,7 @@ language message zh_CN.UTF-8
 "避免windows下gvim菜单和系统提示乱码
 set fileencodings=ucs-bom,utf-8,utf-16,cp936,gb18030,big5,euc-jp,euc-kr,latin1 "自动识别编码，正确显示中文
 set guifont=Menlo:h16 "设置双字节字体
-set guifontwide=Hei_Regular:h14 "设置单字节字体
+"set guifontwide=Hei_Regular:h14 "设置单字节字体
 set linespace=2 "设置行高
 colorscheme desert "设置颜色主题
 "set lines=50 columns=128 "设置macvim窗口大小
@@ -42,7 +42,7 @@ set noimd "避免中文干扰
  let g:user_zen_expandabbr_key = '<c-L>'    "设置为ctrl+e展开
  let g:use_zen_complete_tag = 1
 set helplang=cn " 帮助文档设置中文
-set transparency=0 "透明度
+set transparency=20 "透明度
 " autocmd vimenter * NERDTree,去掉下面两行的引号可启用。
 " autocmd vimenter * if !argc() | NERDTree | endif
 " autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
